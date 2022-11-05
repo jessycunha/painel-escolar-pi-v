@@ -14,7 +14,7 @@ Os dados serão recebidos através de uma API de um Painel do Professor, desenvo
     <img align="center" src="https://img.shields.io/badge/-CSS3-05122A?style=flat&logo=CSS3" alt="css3"/>
 </p>
 
-O template 
+
 
 
 
