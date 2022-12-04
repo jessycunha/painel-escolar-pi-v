@@ -3,7 +3,7 @@ body {
 	padding: 0;
 	line-height: 1.5em;
 	font-family: Verdana, Arial, san-serif;
-	font-size: 11px;
+	font-size: 14px;
 	color: #ffffff;
 	background: #4b4743;
 }
@@ -32,7 +32,7 @@ img {
 .cleaner_with_height {
 	clear: both;
 	width: 100%;
-	height: 30px;
+	height: 10px;
 	font-size: 1px;	
 }
 
@@ -70,10 +70,11 @@ img {
 }
 
 #templatemo_container{
-	width: 960px;
+	/* width: 960px; */
 	margin: 0 auto;
-	padding: 0 10px;
+	/* padding: 0 10px; */
 	background: #1c1c1b url(images/templatemo_bg.jpg) repeat-y;
+	background-size: cover;
 }
 
 
@@ -81,9 +82,10 @@ img {
 
 #templatemo_menu {
 	clear: both;
-	width: 960px;
+	/* width: 960px; */
 	height: 45px;
 	background: url(images/templatemo_menu_bg.jpg) no-repeat;
+	background-size: cover;
 }
 
 #templatemo_menu ul {
@@ -99,7 +101,7 @@ img {
 #templatemo_menu ul li a{
 	float: left;
 	padding: 0 20px;
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: bold;
 	text-align: center;
 	text-decoration: none;
@@ -115,11 +117,12 @@ img {
 /* header */
 #templatemo_header {
 	clear: both;
-	width: 960px;
-	height: 285px;
+	/* width: 960px; */
+	height: 330px;
 	padding: 0;
 	margin: 0;
 	background: url(images/templatemo_header_bg_blank.jpg) no-repeat;
+	background-size: cover;
 }
 
 #templatemo_header a,a:hover {
@@ -130,7 +133,7 @@ img {
 	float: left;
 	font-size: 14px;	
 	margin-top: 95px;
-	margin-left: 490px;
+	margin-left: 790px;
 	width: 180px;
 }
 
@@ -169,23 +172,24 @@ img {
 /* content */
 #templatemo_content {
 	clear: both;
-	width: 920px;
-	padding: 0 20px;
+	/* width: 920px; */
+	padding: 0 10px;
 }
 
 #templatemo_content #templatemo_content_left {
+	margin-top: 10px;
 	float: left;
-	width: 188px;
+	width: 250px;
 	padding: 10px;
 	background-color: #171716;
 	border: 1px solid #212120;
 }
 
 #templatemo_content #templatemo_content_right {
+	margin-top: 10px;
 	float: right;
-	width: 670px;
+	width: 1040px;
 }
-
 
 #templatemo_content_left .templatemo_content_left_section{
 	clear: both;
@@ -221,10 +225,6 @@ img {
 .templatemo_content_left_section li a:hover, .templatemo_content_left_section li .current{
 	color: #fcf88e;
 }
-
-
-
-
 
 #templatemo_content_right .templatemo_product_box {
 	float: left;
@@ -300,12 +300,13 @@ img {
 /* footer */
 #templatemo_footer {
 	clear: both;
-	width: 960px;
+	/* width: 960px; */
 	padding: 20px 0px 20px 0;
 	text-align: center;
 	border-top: 1px solid #25211e;
 	color: #999;
 	background-color: #111110;
+	background-size: cover;
 }
 
 #templatemo_footer a{
@@ -324,11 +325,11 @@ table {
 
 table thead{
 	background-image: url(images/templatemo_h1_bg.jpg);
-	
 }
 
 table, td, th {
 	border-bottom: 1px solid #e6e154;
 	color: #969547;
 	line-height: 25px;
+	text-align: center;
 }

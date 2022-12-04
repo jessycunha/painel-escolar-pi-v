@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Painel do Aluno</title>
 
-    <link href="/student.css" rel="stylesheet" type="text/css" />
+    <link href="../public/example.css" rel="stylesheet" type="text/css" />
     
 </head>
 <body>
@@ -74,10 +74,11 @@
                 
                 <h1>Boletim</h1>
                 
-                <a href="/student/b1">1º Bimestre</a> |
-                <a href="/student/b2">2º Bimestre</a> |
+                <a href="#">1º Bimestre</a> |
+                <a href="#">2º Bimestre</a> |
                 <a href="#">3º Bimestre</a> |
                 <a href="#">4º Bimestre</a></br></br></br>
+                
                 
                 <table>
                     <thead>
@@ -87,18 +88,9 @@
                         <th>Participação</th>
                     </thead>
                     <tbody>
-                        <% for(let i = 0; i < boletim.length; i++) { %>
-                            <tr>
-                                <td><%= boletim[i].disciplina %></td>
-                                <td><%= boletim[i].nota %></td>
-                                <td><%= boletim[i].faltas %></td>
-                                <td><%= boletim[i].participacao + '%' %></td>
-                            </tr>
-                        <% } %>  
+                            
                     </tbody>
                 </table>
-                
-                <div class="cleaner_with_height">&nbsp;</div>
                 
             </div> <!-- end of content right -->
         
@@ -111,5 +103,7 @@
             <!-- Credit: www.templatemo.com -->
         </div> <!-- end of footer -->
     </div>
+
+    <script src="../src/example.js"></script>
 </body>
 </html>
