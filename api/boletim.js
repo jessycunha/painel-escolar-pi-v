@@ -98,5 +98,63 @@ module.exports = {
             }
         ]
         return res.render('student', { boletim })
+    },
+    bimestreTres(req, res){
+        const boletim = [
+            {        
+                disciplina: 'Português',
+                nota: 9,
+                faltas: 1,
+                participacao: 92
+            },
+            {
+                disciplina: 'Matemática',
+                nota: 9.5,
+                faltas: 1,
+                participacao: 99
+            },
+            {
+                disciplina: 'História',
+                nota: 7,
+                faltas: 0,
+                participacao: 90
+            },
+            {
+                disciplina: 'Geografia',
+                nota: 8,
+                faltas: 3,
+                participacao: 90
+            }
+        ]
+        return res.render('student', { boletim })
+    },
+    bimestreQuatro(req, res){
+        const boletim = [
+            {        
+                disciplina: 'Português',
+                nota: 8.5,
+                faltas: 0,
+                participacao: 97
+            },
+            {
+                disciplina: 'Matemática',
+                nota: 9.5,
+                faltas: 1,
+                participacao: 99
+            },
+            {
+                disciplina: 'História',
+                nota: 7,
+                faltas: 0,
+                participacao: 90
+            },
+            {
+                disciplina: 'Geografia',
+                nota: 8,
+                faltas: 3,
+                participacao: 90
+            }
+        ]
+        return res.render('student', { boletim })
     }
 }
